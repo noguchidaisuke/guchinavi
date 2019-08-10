@@ -16,7 +16,8 @@ default: &default
   username: root
   password: 
   host: localhost
-
+  socket: /tmp/mysql.sock
+  
 development:
   <<: *default
   database: miselist_development
